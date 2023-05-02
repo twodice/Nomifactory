@@ -1111,29 +1111,3 @@ makeShaped("ar_oxidizer_tank",
 		T: reinforcedtankIng
 	});
 
-/*
-
-  Removals
-
-*/
-
-mods.jei.JEI.removeAndHide(<advancedrocketry:blockpump>);    // Fluid Pump
-mods.jei.JEI.removeAndHide(<advancedrocketry:centrifuge>);   // Centrifuge
-mods.jei.JEI.removeAndHide(<advancedrocketry:basalt>);       // Basalt
-mods.jei.JEI.removeAndHide(<advancedrocketry:landingfloat>); // Landing Float
-mods.jei.JEI.removeAndHide(<advancedrocketry:airlock_door>); // Airlock Door (Technical Block)
-mods.jei.JEI.removeAndHide(<advancedrocketry:lightsource>);  // Light source (Technical Block)
-mods.jei.JEI.removeAndHide(<advancedrocketry:astrobed>);     // Astrobed     (Technical Block)
-
-//AR Rocket fuel, unusable
-mods.jei.JEI.removeAndHide(<forge:bucketfilled>.withTag({FluidName: "rocketfuel", Amount: 1000}));
-
-// Various unused satellite sensors
-mods.jei.JEI.removeAndHide(<advancedrocketry:satelliteprimaryfunction:2>);
-mods.jei.JEI.removeAndHide(<advancedrocketry:satelliteprimaryfunction:3>);
-mods.jei.JEI.removeAndHide(<advancedrocketry:satelliteprimaryfunction:4>);
-mods.jei.JEI.removeAndHide(<advancedrocketry:satelliteprimaryfunction:5>);
-
-// Unused Chips
-mods.jei.JEI.removeAndHide(<advancedrocketry:ic:1>);
-mods.jei.JEI.removeAndHide(<advancedrocketry:satelliteidchip>);
